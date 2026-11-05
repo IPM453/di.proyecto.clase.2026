@@ -1,0 +1,24 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MaterialDesignThemes.MahApps" Version="5.4.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Datos\Repositorios\" />
+    <Folder Include="Modelos\" />
+    <Folder Include="Servicios\Interfaces\" />
+    <Folder Include="ViewModel\" />
+    <Folder Include="Vista\Dialogos\" />
+    <Folder Include="Vista\UserControl\" />
+  </ItemGroup>
+
+</Project>
